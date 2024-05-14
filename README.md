@@ -1,5 +1,5 @@
 # Fine-Tuning LLMs with Quantization for Financial Sentiment Analysis
-In this project, we delve into a comparative analysis of various Large Language Models (LLMs) such as LLaMA2, LLaMA3, Ladybird, and Facebook's OPT, specifically focusing on their capabilities in Financial Sentiment Analysis.  And we use the FinancialPhraseBank dataset which is a polar sentiment dataset consisting of 4,840 sentences from English language financial news.
+In this project, we delve into a comparative analysis of various Large Language Models (LLMs) such as LLaMA2, LLaMA3, Ladybird, Jupiter-k-7B-slerp,  and Facebook's OPT, specifically focusing on their capabilities in Financial Sentiment Analysis.  And we use the FinancialPhraseBank dataset which is a polar sentiment dataset consisting of 4,840 sentences from English language financial news.
 
 
 ---
