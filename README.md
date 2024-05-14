@@ -19,6 +19,16 @@ In this project, we embark on a comparative analysis of various Large Language M
 
 The present study uses FinancialPhraseBank dataset curated by Malo et. al which is a polar sentiment dataset consisting of 4,840 sentences from English language financial news. Each sentence is categorized based on sentiment, and the dataset is divided by agreement rate of 5-8 annotators. The dataset is designed to be used for tasks related to sentiment classification in the financial domain. The dataset is uploaded in csv format in add-data.csv in this repo.
 
+### Models used along with their Hugging Face repositories
+
+* Llama 3  - "NousResearch/Meta-Llama-3-8B"
+* Jupiter-k-7B-slerp  - "Kukedlc/Jupiter-k-7B-slerp"
+* OPT - 13B - "facebook/opt-13b"
+* Ladybird Base 7B - "bobofrut/ladybird-base-7B-v8"
+* Llama 2 7B - "NousResearch/Llama-2-7b-hf"
+* Llama 2 13B - "NousResearch/Llama-2-13b-hf"
+
+
 ### Requirements
 The following python packages are required to run the Jupyter notebooks:
 * numpy
