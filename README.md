@@ -33,6 +33,27 @@ Install them manually or use add this command in your python notebook:
 `!pip install accelerate peft bitsandbytes transformers trl`
 
 ---
+### Results
+
+\begin{table}[]
+\begin{tabular}{lr}
+\textbf{Models}       & \multicolumn{1}{l}{\textbf{Accuracy}} \\
+\multicolumn{2}{c}{\textbf{Pre-Finetuned Models}}                   \\ \hline
+\textbf{Llama 3 - 8B} & 37\%                                  \\
+Jupiter-k-7B-slerp    & 78\%                                  \\
+OPT 13B               & 34\%                                  \\
+Ladybird Base 7B      & 80\%                                  \\
+Llama 2 7B            & 37\%                                  \\
+Llama 2 13B           & 40\%                                  \\
+\multicolumn{2}{c}{\textbf{Finetuned Models}}                 \\ \hline
+\textbf{Llama 3 - 8B} & 85\%                                  \\
+Jupiter-k-7B-slerp    & 88\%                                  \\
+OPT 13B               & 86\%                                  \\
+Ladybird Base 7B      & 89\%                                  \\
+Llama 2 7B            & 86\%                                  \\
+Llama 2 13B           & 87\%                                 
+\end{tabular}
+\end{table}
 
 ### System Specification
 
