@@ -15,6 +15,10 @@ In this project, we delve into a comparative analysis of various Large Language 
 ### Abstract
 In this project, we embark on a comparative analysis of various Large Language Models (LLMs) to evaluate their efficacy in Financial Sentiment Analysis. With the rapid advancements in artificial intelligence, LLMs have become pivotal in extracting and interpreting sentiment from vast amounts of financial data. This capability is crucial for stakeholders in the finance sector, as it aids in decision-making processes by providing insights into market sentiment. Through this study, we aim to identify which models are most effective in accurately analyzing sentiments expressed in financial texts, thus providing a clearer understanding of their practical applications and limitations within the finance industry.
 
+### Dataset
+
+The present study uses FinancialPhraseBank dataset curated by Malo et. al which is a polar sentiment dataset consisting of 4,840 sentences from English language financial news. Each sentence is categorized based on sentiment, and the dataset is divided by agreement rate of 5-8 annotators. The dataset is designed to be used for tasks related to sentiment classification in the financial domain. The dataset is uploaded in csv format in add-data.csv in this repo.
+
 ### Requirements
 The following python packages are required to run the Jupyter notebooks:
 * numpy
